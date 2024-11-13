@@ -126,7 +126,8 @@ class _MoodEntryFormPageState extends State<MoodEntryFormPage> {
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Text('Mood: $_mood'),
-                                  // TODO: Munculkan value-value lainnya
+                                  Text('Feelings: $_feelings'),
+                                  Text('Intensity: $_moodIntensity')
                                 ],
                               ),
                             ),
